@@ -6,7 +6,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-react-helmet-async`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-json`,
@@ -41,6 +40,13 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
+        icons: [
+          {
+            src: `/static/favicons/fav.png`,
+            size: `192x192`,
+            type: `image/png`,
+          },
+        ],
       },
     },
   ],
