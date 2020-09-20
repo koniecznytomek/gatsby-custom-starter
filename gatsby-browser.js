@@ -1,4 +1,3 @@
-import './src/styles/global.css';
 import CustomLayout from './src/utils/wrapPageElement';
 export const wrapPageElement = CustomLayout;
 

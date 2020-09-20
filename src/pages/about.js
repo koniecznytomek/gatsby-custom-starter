@@ -2,11 +2,11 @@ import React from 'react';
 import SEO from '../utils/helmetWrapper';
 import LinkFadeDown from '../components/TransitionLinks/LinkFadeDown';
 
-export const HomePage = () => (
+export const AboutPage = () => (
   <>
     <SEO title="Home" description="This is home page" />
-    <h1>Home page</h1>
-    <LinkFadeDown url={'/about'}>About</LinkFadeDown>
+    <h1>About page</h1>
+    <LinkFadeDown url={'/'}>Home</LinkFadeDown>
   </>
 );
-export default HomePage;
+export default AboutPage;
