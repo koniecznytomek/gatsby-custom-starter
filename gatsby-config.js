@@ -21,10 +21,6 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `IBM Plex Mono`,
-            variants: [`300`, `300i`, `400`, `400i`, `500`, `500i`],
-          },
-          {
             family: `Nunito Sans`,
             variants: [`400`, `600`, `700`, `800`],
           },

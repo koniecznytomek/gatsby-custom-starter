@@ -1,6 +1,3 @@
-import { createGlobalStyle } from 'styled-components';
-export const GlobalStyle = createGlobalStyle`
-
 html {
   color: #202020;
   box-sizing: border-box;
@@ -40,4 +37,4 @@ img {
   max-width: 100%;
   height: auto;
 }
-`;
+

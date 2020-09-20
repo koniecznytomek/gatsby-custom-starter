@@ -1,17 +1,10 @@
 import React from 'react';
-import Col from '../components/Col';
-import styled from 'styled-components';
+import SEO from '../utils/helmetWrapper';
 
-export const Row = styled.div`
-  min-height: 200vh;
-  background: #fafafa;
-`;
-export const Home = () => (
+export const HomePage = () => (
   <>
-    <Col Bg="#ccc">
-      <h1>test</h1>
-    </Col>
+    <SEO title="Home" description="This is home page" />
+    <h1>Home page</h1>
   </>
 );
-
-export default Home;
+export default HomePage;

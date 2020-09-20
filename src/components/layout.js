@@ -1,12 +1,5 @@
 import React from 'react';
-import { GlobalStyle } from '../styles/global';
-import Transition from './Transition';
 
-const Layout = props => (
-  <>
-    <GlobalStyle />
-    <Transition {...props}>{props.children}</Transition>
-  </>
-);
+const Layout = props => <>{props.children}</>;
 
 export default Layout;
